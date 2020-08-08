@@ -1,0 +1,39 @@
+# i have comment out my code
+# In this program I Have use 'FOR next LOOP'
+"""""
+list1 = [["Umair", 1],
+         ["Najmi", 2],
+         ["Larry", 3],
+         ["Carry", 4]]
+for item, lollypop in list1:
+    print(item, "and lolly is", lollypop)
+
+"""""
+"""""
+# This program execute dictionary in for next loop 
+
+
+list2 = [["Umair", 1],
+         ["Najmi", 2],
+         ["Larry", 3],
+         ["Carry", 4]]
+dict1 = dict(list2)  # First i have convert list into dictionary
+for item, lollypop in dict1.items():  # using For next Loop
+    print(item, "and lolly is ", lollypop)
+
+
+# 'in' is use for entering in list or whatever.
+
+"""""
+
+"""""
+
+# This program contain word and number but by using tr keyword it will convert. look ans
+items = [int, float, "UmAir", 5, 8, 9, 23, 33, 45, 50]
+
+for item in items:  # For next Loop
+    if str(item).isnumeric() and item>6:  # first covert to str then execute
+        print(item) 
+
+
+"""""
